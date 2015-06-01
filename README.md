@@ -5,7 +5,7 @@ A single file which allows you to write:
     log::debug << "Hello world!" << std::endl;
     log::info << "What do you think? I'm Gaya?" << std::endl;
 
-Moreover, there is a `VERBOSITY` level you can set to for example `INFO` which subsequently renders all calls to `log::debug` to `\dev\null`.
+Moreover, there is a `VERBOSITY` level you can set to for example `INFO` which subsequently renders all calls to `log::debug` to `/dev/null`.
 
 How does it then display this?
 
